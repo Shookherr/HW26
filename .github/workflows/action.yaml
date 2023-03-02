@@ -43,6 +43,5 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd deploy
-#            daemon mode
             docker-compose up -d
 
