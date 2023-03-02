@@ -23,7 +23,7 @@ jobs:
           mkdir deploy/
           export DB_PASSWORD=${{ secrets.DB_PASSWORD }}
           export DB_USER=${{ secrets.DB_USER }}
-          export DB_NAME=${{ secrets.DB_NANE }}
+          export DB_NAME=${{ secrets.DB_NAME }}
           export IMAGE_TAG=${{ secrets.IMAGE_TAG }}
           cat docker-compose-ci.yaml | envsubst > deploy/docker-compose.yaml
       - name: copy files
