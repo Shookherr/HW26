@@ -1,4 +1,4 @@
-# Домашняя работа №26. Шумихин Алексей. 01.03.23
+# Домашняя работа №26. Шумихин Алексей. 02.03.23
 from flask import Flask
 from app import create_app
 from config import Config
