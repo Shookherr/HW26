@@ -2,7 +2,9 @@ version: '3.3'
 
 services:
   app:
+#    image: shookher/skypro:master-4309551143
     build: .
+
     ports:
       - 25000:25000
 #   зависимость:
